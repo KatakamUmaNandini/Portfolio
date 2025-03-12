@@ -440,30 +440,30 @@ u{
     /* justify-content: center; */
     box-shadow: 0 0 15px #A020F0;
     margin-bottom: 30px;
-    background-image: url("../Images/internsimage.jpg");
+    background-image: url("internsimage.jpg");
     background-size: 100% 100%;
   }
   .c1{
-    background-image: url("../Images/teamcollaborationgdg.jpg");
+    background-image: url("teamcollaborationgdg.jpg");
     background-size: 100% 100%;
     /* z-index: -1; */
     width: 100%;
     height: 80%;
   }
   .c2{
-    background-image: url("../Images/campaigninggdg.jpg");
+    background-image: url("campaigninggdg.jpg");
     background-size: 100% 100%;
     width: 100%;
     height: 80%;
   }
   .c3{
-    background-image: url("../Images/industrialexpertsgdg.jpg");
+    background-image: url("industrialexpertsgdg.jpg");
     background-size: 100% 100%;
     width: 100%;
     height: 80%;
   }
   .c4{
-    background-image: url("../Images/eventgdg.jpg");
+    background-image: url("eventgdg.jpg");
     background-size: 100% 100%;
     width: 100%;
     height: 80%;
@@ -536,7 +536,7 @@ u{
     /* width: 700px; */
     /* width: 20%; */
     /* height: 100%; */
-    background-image: url("../Images/doctorshomepage.jpg");
+    background-image: url("doctorshomepage.jpg");
     background-size: 100% 100%;
 }
 .innerprojectmatter{
@@ -632,11 +632,11 @@ u{
     /* height: 250px; Fixed height for images */
 }
 .p1{
-    background-image: url("../Images/travelhomepage.jpg");
+    background-image: url("travelhomepage.jpg");
     background-size: 100% 100%;
 }
 .p2{
-    background-image: url("../Images/doctorshomepage.jpg");
+    background-image: url("doctorshomepage.jpg");
     background-size: 100% 100%;
 }
 
