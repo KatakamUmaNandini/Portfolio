@@ -535,6 +535,7 @@ u{
     margin-bottom: 2%;
     box-shadow: 0 0 10px #A020F0;
     flex-wrap: wrap;
+    margin-top: 2%;
 }
 .projectmatter{
     /* width: 300px; */
@@ -747,6 +748,6 @@ u{
 @media(min-width: 1253px){
      .projectmatter{
         width: 400px;
-        height: 250px;
+        height: 300px;
      }
 }
