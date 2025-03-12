@@ -1,0 +1,471 @@
+.body{
+    width: 100%;
+    height: 100svh;
+}
+.parent{
+    width: 100%;
+    height: 100%;
+    background-color: #313789;
+    position: relative;
+}
+.centerdiv{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    bottom: 10%;
+    right: 10%;
+    width: 80%;
+    height: 80%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.div1{
+    width: 100%;
+    /* height: 10%; */
+    /* background-color: aqua; */
+}
+.div2{
+    width: 100%;
+    /* height: 30%; */
+    /* background-color: lightpink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.indiv2{
+    font-size: 30;
+    color: white
+    /* width: fit-content;
+    height: fit-content; */
+}
+.div3{
+    width: 100%;
+    /* height: 35%; */
+    /* background-color: lightgreen; */
+    margin-top: 6%;
+}
+.indiv3{
+    /* width: fit-content;
+    height: fit-content;  */
+    color: #b7b7b3;
+} 
+.div4{
+    width: 100%;
+    /* height: 20%; */
+    /* background-color: chartreuse; */
+}
+.button{
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #f7b7b7;
+}
+#icon{
+    font-size: 40;
+    color: #f7b7b7
+}
+.parent2{
+    width: 100%;
+    /* height: 100svh; */
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    width: 100%;
+    height:400px;
+    background-color: #f7b7b7;
+    position: relative;
+}
+.down{
+    width: 100%;
+    /* height: 60%; */
+    background-color: #F7B7B7;
+    display: flex;
+}
+.dleft{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(198, 238, 238); */
+    /* float: left; */
+    display: flex;
+    justify-content: end;
+}
+.dright{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* float: right; */
+}
+.drightup{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.drightdown{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.drightupleft{
+    width: 35%;
+    /* background-color:#313789; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #313789;
+}
+.drightupright{
+    width: 35%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #313789;
+}
+.ddownleft{
+    width: 35%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #313789;
+}
+.ddownright{
+    width: 35%;
+    /* background-color:#313789; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #313789;
+}
+.ddownright:hover{
+    background-color: #313789;
+    color: white;
+}
+.ddownleft:hover{
+    background-color: #313789;
+    color: white;
+}
+.drightupright:hover{
+    background-color: #313789;
+    color: white;
+}
+.drightupleft:hover{
+    background-color: #313789;
+    color: white;
+}
+.dog{
+    width: 458px;
+    height: 544px;
+    background-color: red;
+}
+.grids_parent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: -150px;
+}
+.grid1_parent{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+    /* flex-wrap: wrap; */
+}
+.grid2_parent{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: rgb(13, 211, 171); */
+    /* flex-wrap: wrap; */
+}
+.grid1{
+    position:relative;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #666666;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.grid1 a{
+    color: #666666;
+}
+.grid2{
+    position:relative;
+    width: 30%;
+    display: flex;
+    color: #666666;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    /* margin-left: 30px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.grid2 a{
+    color: #666666;
+}
+.grid3{
+    position:relative;
+    width: 30%;
+    display: flex;
+    color: #666666;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.grid3 a{
+    color: #666666;
+}
+.grid4{
+    position:relative;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.grid4 a{
+    color: #666666;
+}
+.grid5{
+    position:relative;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.grid5 a{
+    color: #666666;
+}
+.grid6{
+    position:relative;
+    width: 30%;
+    display: flex;
+    color: #666666;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    /* margin-left: 30px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.grid6 a{
+    color: #666666;
+}
+/* ---------------------------ATER AND BEFORE CLASSES---------------------------------------- */
+.grid1::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid1:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid1:hover{
+    color: white;
+    z-index: 99;
+    transition-duration: 2s;
+}
+.grid1:hover a{
+    color: white;
+}
+/* ----------------------------------------------------------------------------------- */
+.grid2::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid2:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid2:hover{
+    color: white;
+    z-index: 9999;
+    transition-duration: 2s;
+}
+.grid2:hover a{
+    color: white;
+    
+}
+/* ------------------------------------------------------------------------------ */
+.grid3::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid3:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid3:hover{
+    color: white;
+    z-index: 9999;
+    transition-duration: 2s;
+}
+.grid3:hover a{
+    color: white;
+}
+/* ---------------------------------------------------------------------- */
+.grid4::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid4:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid4:hover{
+    color: white;
+    z-index: 9999;
+    transition-duration: 2s;
+}
+.grid4:hover a{
+    color: white;
+}
+/* ------------------------------------------------------------------------- */
+.grid5::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid5:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid5:hover{
+    color: white;
+    z-index: 9999;
+    transition-duration: 2s;
+}
+.grid5:hover a{
+    color: white;
+}
+/* --------------------------------------------------------------------------- */
+.grid6::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid6:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid6:hover{
+    transition-duration: 2s;
+    color: white;
+    z-index: 9999;
+}
+.grid6:hover a{
+    color: white;
+}

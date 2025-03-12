@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script>
+            (function() {
+                emailjs.init('kBMfA8q4VvyzIb_xV');
+            })();
+        </script>
+    </head>
+    <body>
+        <div style="background-color: black; display: flex; flex-direction: column; width: 100svw;">
+        <div class="header">
+            <div class="logo"><img class="mynamelogo"src="../Images/UNlogo.png"/></div>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <div class="hnavs">
+                <div class="hnav-links">
+                    <a href="#home">Home</a>
+                </div>
+                <div class="hnav-links">
+                    <a href="#skills">Skills</a>
+                </div>
+                <div class="hnav-links">
+                    <a href="#projects">Projects</a>
+                </div>
+                <div class="hnav-links">
+                    <a href="#experience">Experience</a>
+                </div>
+                <div class="hnav-links">
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="mytitle">My 
+            <span>Portfolio</span>
+        </div>
+        <div class="mbody">
+            <div class="text">
+                <p class="hello">Hello, It's me</p>
+                <p class="myname">Uma Nandini Katakam</p>
+                <div class="role">
+                    I am a <span class="animated-role">Full Stack Developer</span>
+                </div>
+                <p class="description">I am a passionate Full Stack Developer and a Problem-Solving Enthusiast. I love the thrill of finally cracking a problem that I've been tackling for a long time. I am also a Core Team Member of Google Developer Groups(GDG), where I actively contribute by organizing events, sharing knowledge, and fostering a tech community.</p><br>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/uma-nandini-katakam-656728270"><i id="it"class="fab fa-linkedin"></i></a>
+                     <!-- <a href="https://www.linkedin.com/in/uma-nandini-katakam-656728270"><i id="it"class="fa-brands fa-linkedin-in"></i></a> -->
+                    <a href="mailto:umanandinikatakam@gmail.com"><i id="homeicon" class="fa-solid fa-envelope"></i></a>
+                    <button class="resume">Download Resume</button>
+                </div>
+            </div>
+            <div class="photo">
+                <div class="mround">
+                    <img src="../Images/shortimage-removebg-preview.png">
+                </div>
+            </div>
+        </div><br><br><br>
+        <div class="skills" id="skills">
+            <div class="myskills">
+                My <span>Skills</span>
+            </div>
+            <div class="skillsbody">
+                <div class="innerskillsbody">
+                <div class="card">
+                    <div class="skillname">Programming Languages</div>
+                    <div class="languages">
+                    <div class="language"><i class="fa-solid fa-c" id="skillicon"></i> - Language</div>
+                    <div class="language"><i class="fa-solid fa-c" id="skillicon">++</i> - Language</div>
+                    <div class="language"><i class="fa-brands fa-python" id="skillicon"></i> - Python Language</div>
+                    <div class="language"><i class="fa-brands fa-java" id="skillicon"></i> - Java Language</div></div>
+                </div>
+                <div class="card">
+                    <div class="skillname">Development Skills</div>
+                    <div class="languages">
+                    <div class="language"><i class="fa-brands fa-html5" id="skillicon"></i> - HTML5 and CSS</div>
+                    <div class="language"><i class="fa-brands fa-js" id="skillicon"></i> - JavaScript</div>
+                    <div class="language"><i class="fa-brands fa-react" id="skillicon"></i> - React.js</div>
+                    <div class="language"><i class="fa-brands fa-node" id="skillicon"></i> - Node.js</div>
+                    <div class="language"><i class="fa-solid fa-code" id="skillicon"></i> - Express.js</div></div>
+                </div>
+                <div class="card">
+                    <div class="skillname">DataBases</div>
+                    <div class="dblanguages">
+                    <div class="language"><i class="fa-solid fa-database" id="skillicon"></i> - Structured Query Language (SQL) : Relational DataBase Management System</div>
+                    <div class="language"><i class="fa-solid fa-database" id="skillicon"></i> - MongoDB: Non - relational DataBase Management System</div></div>
+                </div>
+                <div class="card">
+                    <div class="skillname">TypingSkills</div>
+                    <div class="dblanguages">
+                    <div class="language"><i class="fa-solid fa-keyboard" id="skillicon"></i> - Typing Speed - 50WPM</div>
+                    <div class="language"><i class="fa-solid fa-keyboard" id="skillicon"></i> - Accuracy - 96%</div>
+                </div>
+                </div>
+                <div class="card">
+                    
+                    <div class="skillname">Communication Skills</div>
+                    <div class="languages">
+                        <div class="language"><i class="fa-solid fa-microphone" id="skillicon"></i> - Public Speaking</div>
+                        <div class="language"><i class="fa-solid fa-people-group" id="skillicon"></i> - Team Collaboration</div>
+                        <div class="language"><i class="fa-solid fa-bullhorn" id="skillicon"></i> - Networking and Community Building</i></div>
+                        <div class="language"><i class="fa-solid fa-users" id="skillicon"></i> - Event Hosting</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="skillname">ServiceNow</div>
+                    <div class="languages">
+                        <div class="language"><i class="fa-solid fa-cloud" id="skillicon"></i> - ITSM(Information Technology Service Management)</div>
+                        <div class="language"><i class="fa-solid fa-code" id="skillicon"></i> - ServiceNow Scripting</div>
+                        <div class="language"><i class="fa-solid fa-folder-open" id="skillicon"></i> - Service Catalog and Request Management</div>
+                </div>
+            </div></div>
+        </div>
+        <div class="experience" id="experience">
+            <div class="myexperience">My <span>Experience</span></div>
+            <div class="coreteammemberheading"><u>Core Team Member of <span>GDG(Google Developer Groups)</span></u></div>
+            <div class="experiencecardholder"> 
+                <div class="innerexperiencecardholder">
+                    <div class="card1">
+                        <div class="c1"></div>
+                        <div class="name">Collaboration with the team</div>
+                    </div>
+                    <div class="card1">
+                        <div class="c2"></div>
+                        <div class="name">Campaigning about the event</div>
+                    </div>
+                    <div class="card1">
+                        <div class="c3"></div>
+                        <div class="name">Interacting with Industrial Experts</div>
+                    </div>
+                    <div class="card1">
+                        <div class="c4"></div>
+                        <div class="name">Organsied 10+ Events</div>
+                    </div>
+                </div>
+            </div>
+            <div class="coreteammemberheading"><u>C Intern at <span>Technical Hub</span></u></div>
+            <div class="interncontent">Assisted junior students in understanding C programming concepts and debugging code. Helped with coding exercises, logic building, and troubleshooting errors. Provided explanations and practical examples to enhance their problem-solving skills.</div><br><br>
+            <div class="experiencecardholder">
+                <div class="innerexperiencecardholder">
+                    <div class="card1"></div>
+                    <!-- <div class="card1"></div> -->
+                </div>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <div class="projectheading">My <span>Projects</span></div><br><br>
+            <div class="projectcard">
+                <div class="projectphoto p1"></div>
+                <div class="projectmatter"><div class="innerprojectmatter"><span class="projectname">Vihara Yatra</span><br><br>
+                    A travel website designed to help users explore various destinations and calculate travel costs.
+                    Developed a responsive user interface using HTML, CSS, and JavaScript, allowing users to seamlessly browse through destinations.
+                    Implemented login/signup screens using JavaScript local storage for secure user session management.</div>
+            </div></div>
+            <a href="https://github.com/JayaRam2884/ViharaYatra" ><button class="Viewproject">View Project</button></a>
+            <div class="projectcard">
+                <div class="projectphoto p2"></div>
+                <div class="projectmatter"><div class="innerprojectmatter"><span class="projectname">Medipath</span><br><br>
+A doctor appointment booking website designed to streamline scheduling for a multispecialty hospital.
+Developed a responsive and user-friendly interface, ensuring a seamless patient experience across devices.
+Features include login/signup, doctor availability slots, appointment booking, and appointment cancellation.
+Built using React, Node.js, Express, and MongoDB.</div>
+                </div>
+            </div>
+            <button class="Viewproject">View Project</button>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contactme">Contact <span>Me</span></div>
+            <form id="contact-form">
+                <div class="inputgroup">
+                    <div class="input-field">
+                        <label>Your Name:</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="input-field">
+                        <label>Your Email:</label>
+                        <input type="email" name="email" required>
+                    </div>
+                </div>
+                <div class="inputgroup">
+                <div class="input-field">
+                    <label>Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div></div>
+                <button type="submit" class="submitbutton">Submit</button>
+            </form>
+
+
+            <!-- form id="contact-form">
+  <input type="text" id="name" name="name" placeholder="Your Name" required>
+  <input type="email" id="email" name="email" placeholder="Your Email" required>
+  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button> -->
+<!-- </form> -->
+
+
+
+
+        </div>
+</div>
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    emailjs.sendForm('service_7j0z6ba', 'template_6dmytni', this)
+      .then(function(response) {
+        console.log('Email sent!', response.status, response.text);
+        alert('Email sent successfully!');
+      }, function(error) {
+        console.error('Error sending email:', error);
+        alert('Oops! Something went wrong.');
+      });
+  });
+</script>
+<script src="script.js"></script>
+    </body>
+</html>

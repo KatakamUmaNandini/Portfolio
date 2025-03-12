@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="transitiontask.css">
+    </head>
+    <body>
+        <div class="optionsdiv">
+            <div class="options">Home</div>
+            <div class="options">About</div>
+            <div class="options">Support</div>
+            <div class="options">Contact</div>
+            <div class="options">Team</div>
+        </div>
+        <button onclick="fun('optionsdiv')">Show Options</button>
+        <script>
+            function fun(data){
+                var x = document.getElementsByClassName(data)[0];
+                x.style.width = "300px"
+            }
+        </script>
+    </body>
+</html>

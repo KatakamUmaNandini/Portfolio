@@ -1,0 +1,33 @@
+.parent{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 70%;
+    height: 70%;
+}
+.child1{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+}
+.child2{
+    width: 100%;
+    height: 50%;
+    background-color: chartreuse;
+}
+.moon{
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    border-radius: 50%;
+}
+.sun{
+    width: 20%;
+    height: 20%;
+    background-color: yellow;
+    border-rad
+}

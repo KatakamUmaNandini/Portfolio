@@ -1,0 +1,85 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    width: 100%;
+    height:100%;
+    position: relative;
+    
+    
+}
+.system{
+    width: 70%;
+    height: 70%;
+    position:relative; 
+    /* background-color: black; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    animation-name: animation;
+    animation-duration: 5s;
+}
+.sun{
+    background-color: orangered;
+    width:15%;
+    height:30%;
+    border-radius: 100%;
+    position: absolute; 
+    top:34%;
+    left:39%;
+   
+}
+.earth{
+    background-color: blue;
+    width:10%;
+    height:20%;
+    border-radius: 50%;
+    top: 10%;
+    right: 10%;
+    
+}
+@keyframes animation{
+    /* 0%{
+        transform: rotate(0deg translateX(300px));
+        /* display: flex;
+        justify-content: start;
+        align-items: start; */
+        /* transform: rotate(0deg); */
+    /*}
+   /* 25%{
+        /* display: flex;
+        justify-content: end;
+        align-items: start; */
+        /* transform: rotate(25deg); */
+        /*transform: rotate(45deg translateX(300px));
+    }
+    50%{
+        /* display: flex;
+        justify-content: end;
+        align-items: end; */
+        /* transform:rotate(50deg); */
+        /*transform: rotate(90deg translateX(300px));
+    }
+
+    75%{
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        /* transform:rotate(75deg); */
+        /*transform: rotate(80deg translateX(300px));
+    }
+    100%{
+        /* display: flex;
+        justify-content: start;
+        align-items:start; */
+        /* transform:rotate(100deg); */
+        
+    /*}*/ 
+    0%{
+        transform: rotate(0deg) ;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

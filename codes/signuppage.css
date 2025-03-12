@@ -1,0 +1,90 @@
+.parent{
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(77, 167, 224);
+}
+.signincard{
+    width: 30%;
+    height: 75%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.signupcard{
+    width: 30%;
+    height: 85%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+label{
+    font-size: 30px;
+}
+input{
+    font-size: 25px;
+    height: 50px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+.buttonclass{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.login{
+    height: 60px;
+    width: 80%;
+    background-color:  rgb(77, 167, 224);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.dont{
+    height: fit-content;
+    width: fit-content;
+
+}
+.Forgot{
+    font-size: 18px;
+    text-decoration: dotted;
+}
+.line{
+    height: 15px;
+    width: 90%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-size: 20px;
+}
+.f1 ,.f2{
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    /* font-size: 12px; */
+}
+.googlelogin{
+    height: 60px;
+    width: 80%;
+    background-color: white;
+    /* color: aliceblue; */
+    border-radius: 5px;
+}
+.googlelogin:hover{
+    background-color:  rgb(77, 167, 224);
+    transition-duration: 1s;
+    color: aliceblue;
+}

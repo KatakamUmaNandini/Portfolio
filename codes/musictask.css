@@ -1,0 +1,107 @@
+body{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+}
+.child3{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    /* position: relative; */
+}
+.leftdiv{
+    width: 40%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center; 
+    justify-content: end; 
+    position: relative;
+}
+.imgdiv{
+    width: 263px;
+    height:425px;
+    /* position: absolute;
+    left: 30%;
+    top: 50%; */
+    /* border: 2px solid black;
+    background-color: black; */
+}
+#img{
+    animation: animation 5s infinite;
+}
+.rightdiv{
+    width: 55%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+.rightup{
+    width:72%;
+    height: 35%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 3px solid whitesmoke;
+}
+.rightdown{
+    width: 100%;
+    height: 30%; 
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rightdown1{
+    width: 60%;
+    height: 35%;
+    display: flex;
+}
+.light{
+    width: 30%;
+    height: 70%;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+.rightdown2{
+    width: 60%;
+    height: 35%;
+    display: flex;
+}
+.sound{
+    width: 30%;
+    height: 70%;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    
+}
+.tech{
+    font-size: 18;
+    width: fit-content;
+    height: fit-content;
+}
+.virtual{
+    font-size: 35;
+    font-weight: 100;
+    width: fit-content;
+    height: fit-content;
+}
+@keyframes animation{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+}

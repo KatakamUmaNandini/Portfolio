@@ -1,0 +1,70 @@
+.parent{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    /* background-color: black; */
+}
+.maindiv{
+    width: 37%;
+    height:37%;
+    /* background: linear-gradient(to top right,black,rgb(3, 3, 50); */
+    background-color:black;
+    position:absolute;
+    border-radius:20px;
+    /* background-image: url('https://e0.pxfuel.com/wallpapers/325/99/desktop-wallpaper-best-dark-blue-gradient-full-1920%C3%971080-for-pc-black-gradient.jpg'); */
+    color:white;
+    font-style: italic;
+    
+}
+#p2{
+    position: absolute;
+    top: 0%;
+    left:25%;
+    font-size:30;
+    color:rgb(215, 215, 34)
+}
+.owlimage{
+    width:35%;
+    height:30%;
+    position:absolute;
+    top:29%;
+    left:33%; 
+    
+}
+#details{
+    position:absolute;
+    top:65%;
+    left: 5%;
+    font-size:13;
+    color:rgb(231, 231, 17)
+}
+.aditya{
+    position:absolute;
+    top: 1%;
+    left:1%;
+    width:20%;
+    height:45%;
+}
+#p1{
+    position:absolute;
+    top:50%;
+    left:25%;
+    font-size:15;
+}
+.thubimage{
+    width: 30%;
+    height: 15%;
+    position:absolute;
+    right:1%;
+    top:1.5%;
+}
+.bar{
+    width:30%;
+    height:20%;
+    position: absolute;
+    right: 0%;
+    bottom: 10%;
+}

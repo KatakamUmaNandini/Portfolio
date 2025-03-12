@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="formtaskstyling.css">
+        <script src="formtask.js"></script>
+    </head>
+    <body>
+        <form>
+            <label>First Name : </label> 
+            <input type = "text" value="" onchange="changefun(event)"/><br><br>
+            <label>Second Name : </label>
+            <input type = "text" /><br><br>
+            <label>DOB and Age: </label>
+            <input type = "date" /><br><br>
+            <label>Father Name: </label>
+            <input type = "text" /><br><br>
+            <label>Mother Name: </label>
+            <input type = "text" /><br><br>
+            <label>Address :</label>
+            <textarea></textarea><br><br>
+            <label>Gender : </label>
+            <input type = "text" /><br><br>
+            <label>Certifications : </label>
+            <textarea></textarea><br><br>
+            <label>Academic Details : </label>
+            <table>
+
+                <tr>
+                    <th>Nane of the Institution</th>
+                    <th>Year of Pass</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td><input type = "text" class="tableclass"/></td>
+                    <td><input type = "text" class="tableclass"/></td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td ><input type = "text" class="tableclass" /></td>
+                    <td ><input type = "text" class="tableclass"/></td>
+                </tr>
+                <tr>
+                    <td>B.Tech</td>
+                    <td ><input type = "text" class="tableclass"/></td>
+                    <td ><input type = "text" class="tableclass"/></td>
+                </tr>
+            </table>
+            <br><br>
+            <label>Skills : </label>
+            <input type = "text"><br><br>
+            <label>Hobbies : </label>
+            <input type = "text"/><br><br>
+            <label>Profile Picture : </label>
+            <input type = "image"><br><br>
+            <label>Badges : </label>
+            <input type = "image"><br><br>
+            <button type = "submit" onclick="dataprint(event)">Submit</button>
+        </form> 
+    </body>
+</html>

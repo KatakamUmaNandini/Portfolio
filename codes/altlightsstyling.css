@@ -1,0 +1,205 @@
+.parent{
+    width: 100%;
+    height:100svh;
+    /* background-color: black;  */
+    position: relative;
+    background-image: url("https://altlights.com/assets/img/Night_Uncolored.png");
+}
+.header{
+    width:100%;
+    height: 16%;
+    background-color: black;
+    position: fixed;
+    background: linear-gradient(to bottom, black,transparent);
+    opacity: 1;
+}
+.headerchild{
+    width:80%;
+    height: 100%;
+    /* background-color: red;  */
+    margin-left: 10%;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.logodiv{
+    background-color: aqua;
+    width: 17.5%;
+    height: 65%;
+   
+    margin-left:0%;
+    margin-top:0%;
+}
+/* .logo{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    left: 0%;
+    top: 10%;
+
+} */
+.home{
+    width:7%;
+    height: 40%;
+    background-color: aquamarine;
+    margin-left: 5%;
+    margin-top:0%;
+    font-size: 19;
+}
+.product{
+    width:8.5%;
+    height: 40%;
+    background-color: aquamarine;
+    /* position: absolute;
+    left: 28%; */
+    /* top:2%; */
+    margin-left: 5%;
+    font-size: 19;
+}
+.brand{
+    width: 6.5%;
+    height: 40%;
+    background-color: aquamarine;
+    /* position: absolute;
+    left: 39%; */
+    /* top:2%; */
+    margin-left: 5%;
+    font-size: 19;
+
+}
+.inspiration{
+    width: 12%;
+    height: 40%;
+    background-color: aquamarine;
+    /* position: absolute;
+    left: 47%; */
+    /* top:2%; */
+    margin-left: 5%;
+    font-size: 19;
+}
+.support{
+    width: 8.5%;
+    height: 40%;
+    background-color: aquamarine;
+    /* position: absolute;
+    left: 60%; */
+    margin-left: 5%;
+    /* top:2%; */
+    font-size: 19;
+}
+.remain{
+   width: 35%;
+   height: 30%;
+   position:absolute;
+   /* background-color:black; */
+   top:26%;
+   left:10%;
+}
+.remain2{
+    width: 35%;
+    height:10%;
+    position: absolute;
+    /* background-color: aqua; */
+    top: 50.6%;
+    left: 11.5%;
+}
+#embrace{
+    font-size: 55px;
+    color: white;
+    
+}
+#where{
+    font-size: 23;
+    margin-top: 0%;
+    color: white;
+}
+.parent1{
+    width: 100%;
+    height: 1000px;
+    /* background-color: black; */
+    
+}
+.topdiv{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+}
+.explore{
+    width:10%;
+    height: 100%;
+    /* background-color: aqua; */
+    position: absolute;
+    left: 30%;
+    text-align: center;
+    font-size: 35;
+}
+.our{
+    width: 35%;
+    height: 100%;
+    /* background-color: green; */
+    position: absolute;
+    left: 39.5%;
+    /* text-align: center; */
+    font-size: 35;
+    color: red;
+}
+.topdiv1{
+    width:100%;
+    height:12%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.residential{
+    width: 142.8px;
+    height: 70.1px;
+    background-color: white;
+    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 28px;
+    border-top-right-radius: 28px;
+    border-top-left-radius: 30px;
+    margin-left: 49px;
+
+}
+.commercial{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-left: 40px;
+}
+.retail{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-left: 40px;
+}
+.landscape{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-left: 40px;
+
+}
