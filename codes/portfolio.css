@@ -744,3 +744,9 @@ u{
         padding: 8px; /* Adjust padding */
     }
 }
+@media(min-width: 1253px){
+     .projectmatter{
+        width: 400px;
+        height: 250px;
+     }
+}
